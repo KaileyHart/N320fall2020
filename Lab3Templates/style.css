@@ -1,0 +1,34 @@
+.vendingMachine {
+    margin-top: 30px;
+    border: 1px solid orangered;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.vendingMachine h1 {
+    color: orangered;
+    font-family: sans-serif;
+}
+
+.vendingMachine p {
+    font-family: sans-serif;
+}
+
+.vendingMachine button {
+    padding: 5px;
+    font-family: sans-serif;
+    background-color: orangered;
+    color: white;
+    
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.vendingMachine button:hover {
+    cursor: pointer;
+    background-color: orange;
+    
+   
+}
