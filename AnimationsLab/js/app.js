@@ -1,5 +1,5 @@
 /////////////A build-in for all the elements (go from nothing on the screen, to everything visible)////////
-TweenMax.from(".wrapper", { duration: 4, alpha: 0 });
+TweenMax.from(".wrapper", { duration: 10, alpha: 0 });
 
 ////////// A mouse over / highlight for each of the gallery elements below///////////
 
