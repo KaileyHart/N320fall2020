@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#boardLines {
+}
+
+#togglePiece {
+  display: flex;
+}
+
+.x {
+  font-size: 90px;
+}
+
+.info {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+#oTest {
+  display: block;
+}
