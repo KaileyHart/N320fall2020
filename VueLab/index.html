@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Styles Link-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Vue.js Lab</title>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <!--Book Component with props-->
+        <book
+          id="book1"
+          class="book"
+          v-if="shown"
+          title="Slaughterhouse Five"
+          author="Kurt Vonnegut"
+          cover=":)"
+        >
+        </book>
+
+        <!--Book Component with props-->
+        <book
+          id="book2"
+          class="book"
+          v-else
+          title="Cat's Cradle"
+          author="Kurt Vonnegut"
+          cover=":<"
+        ></book>
+      </div>
+      <button v-on:click="shown = !shown" id="btn">Show Other Book</button>
+    </div>
+
+    <!--Vue CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!--JS Script-->
+    <script src="app/app.js"></script>
+  </body>
+</html>
