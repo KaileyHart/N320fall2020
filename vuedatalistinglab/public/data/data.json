@@ -1,0 +1,37 @@
+[
+  {
+    "authorName": "Savannah Brown",
+    "id": 0,
+    "bookName": "Sweetdark",
+    "publishDate": 2020,
+    "alive": "Yes"
+  },
+  {
+    "authorName": "Kurt Vonnegut",
+    "id": 1,
+    "bookName": "Cat's Cradle",
+    "publishDate": 1963,
+    "alive": "No"
+  },
+  {
+    "authorName": "Charles Bukowski",
+    "id": 2,
+    "bookName": "Essential Bukowski: Poetry",
+    "publishDate": 2016,
+    "alive": "No"
+  },
+  {
+    "authorName": "Sheila Heti",
+    "id": 3,
+    "bookName": "How Should a Person Be?",
+    "publishDate": 2010,
+    "alive": "Yes"
+  },
+  {
+    "authorName": "Courtney Peppernell",
+    "id": 4,
+    "bookName": "Pillow Thoughts",
+    "publishDate": 2016,
+    "alive": "Yes"
+  }
+]
