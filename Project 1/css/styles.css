@@ -1,0 +1,84 @@
+* {
+  padding: 0px;
+  margin: 0;
+  font-size: 18px;
+}
+
+body {
+  height: 100vh;
+  max-width: 1200px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+svg {
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+#pattern-boxes {
+  fill: #1ca68f;
+}
+
+.game {
+  display: flex;
+  justify-content: space-around;
+}
+
+.game .game_left {
+  max-width: 50%;
+}
+.game .game_right {
+  max-width: 50%;
+}
+
+.game .game_right h1 {
+  font-family: "Grandstander", cursive;
+  font-weight: 700;
+  width: 400px;
+  text-align: center;
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+p {
+  font-family: "Grandstander", cursive;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.game .game_right button {
+  margin-left: 30px;
+  margin-top: 20px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #1ca68f;
+  color: #fff;
+  border: 1px solid #1ca68f;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.game .game_right button:hover {
+  background-color: white;
+  color: #fff;
+  background-color: #ffaa81;
+
+  border: 1px solid #ffaa81;
+}
+
+.game .game_right .game_right--playerTurn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game .game_right .game_right--restart {
+  margin-top: 400px;
+}
+
+.chuteOne {
+  padding-top: 50px;
+}
